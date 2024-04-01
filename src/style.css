@@ -1,0 +1,32 @@
+@import "./normalize.css";
+
+header {
+    border-bottom: 2px solid purple;
+    display: flex;
+    align-items: center;
+    height: 110px;
+    width: 100%vw;
+}
+
+header img {
+    width: 150px;
+    height: 100px;
+}
+
+.techs>img {
+    height: 100px;
+    width: 100px;
+}
+
+.techs {
+    display: flex;
+    width: 900px;
+}
+
+div {
+    background-color: bisque;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
