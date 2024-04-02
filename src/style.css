@@ -1,16 +1,22 @@
 @import "./normalize.css";
 
 header {
+    background-color: lightgray;
     border-bottom: 2px solid purple;
     display: flex;
     align-items: center;
     height: 110px;
     width: 100%vw;
+    margin-bottom: 20px;
 }
 
 header img {
     width: 150px;
     height: 100px;
+}
+
+main {
+    margin: 0px 30px;
 }
 
 .techs>img {
@@ -23,10 +29,27 @@ header img {
     width: 900px;
 }
 
+.secondColumn {
+    position: absolute;
+    left: 50%;
+}
+
 div {
     background-color: bisque;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#contBasico {
+    position: relative;
+}
+
+h2 {
+    background-color: lightgray;
+    border-bottom: 2px solid rgb(100, 150, 120);
+    position: sticky;
+    top: 0px;
+    padding-left: 20px;
 }
